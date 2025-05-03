@@ -1,0 +1,72 @@
+/* common css S */
+
+.js-evenly{
+    justify-content: space-evenly;
+}
+.js-between{
+    justify-content: space-between;
+}
+.at-center{
+    align-items: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    margin: 0 !important;   
+}
+/* common css E */
+
+
+
+
+.adpenle  .box{
+    background-image:linear-gradient(to top left,var(--first-c) 20%,var(--second-c));
+    width: 230px;
+    /* height: 300px I!important; */
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2% !important;
+    
+}
+.adpenle .box .title{
+    font-size: 13px;
+    font-weight: 700;
+    margin: 15px 30px;
+    display: inline-block;
+    color: white;
+}
+.adpenle  .box i{
+    font-size: 30px;
+    margin: 10px 45px;
+}
+.adpenle .box .items{
+    font-size: 23px;
+    font-weight: 500;
+    color:rgb(255, 255, 255);
+}
+/* Media Query S */
+@media(max-width:990px){
+    
+    .adpenle .box{
+        width:100%;
+        margin: 20px 15px;
+    }
+}
+@media(max-width:575px){
+   
+   
+    
+}
+@media(max-width:375px){
+    
+    .adpenle .box{
+        justify-content: center;
+        margin: 20px 5px;
+    }
+    .adpenle .box i{
+        margin: 20px;
+    }
+}
+/* Media Query E */
+
